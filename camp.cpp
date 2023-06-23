@@ -133,65 +133,145 @@
 
 // classes in c++
 
-#include <iostream>
-#include <sstream>
-using namespace std;
-class Student{
-    public:
-        int age, standard;
-        string first_name, last_name, to_string;
-        int set_age(int a){
-            cin>> a;
-            return a;
-        }
-        int set_standard(int a){
-            cin>> a;
-            return a;
-        }
-        string set_first_name(string a){
-            cin>> a;
-            return a;
-        }
-        string set_last_name(string a){
-            cin>> a;
-            return a;
-        }
-        int get_age(int a){
-            cout<<a;
-            return a;
-        }
-        int get_standard(int a){
-            cout<<a;
-            return a;
-        }
-        string get_first_name(string a){
-            cout<<a;
-            return a;
-        }
-        string get_last_name(string a){
-            cout<<a;
-            return a;
-        }
+// #include <iostream>
+// #include <sstream>
+// using namespace std;
+//     class Student{
+//     private:
+//         int age;
+//         string first_name;
+//         string last_name;
+//         int standard;
+    
+//     public:
+//         //getters and setters
+//         void set_age(int agepara){
+//             age = agepara;
+//         }
         
-};
+//         int get_age(){
+//             return age;
+//         }
+        
+//         void set_first_name(string fname){
+//             first_name = fname;
+//         }
+        
+//         string get_first_name(){
+//             return first_name;
+//         }
+        
+//         void set_last_name(string lname){
+//             last_name = lname;
+//         }
+        
+//         string get_last_name(){
+//             return last_name;
+//         }
+        
+//         void set_standard(int s){
+//             standard = s;
+//         }
+        
+//         int get_standard(){
+//             return standard;
+//         }
+        
+//         string to_string() const{
+//             return std::to_string(age) + "," + first_name + "," + last_name + "," + std::to_string(standard);
+//         }
+// };
 
-int main() {
-    int age, standard;
-    string first_name, last_name;
+// int main() {
+//     int age, standard;
+//     string first_name, last_name;
     
-    cin >> age >> first_name >> last_name >> standard;
+//     cin >> age >> first_name >> last_name >> standard;
     
-    Student st;
-    st.set_age(age);
-    st.set_standard(standard);
-    st.set_first_name(first_name);
-    st.set_last_name(last_name);
+//     Student st;
+//     st.set_age(age);
+//     st.set_standard(standard);
+//     st.set_first_name(first_name);
+//     st.set_last_name(last_name);
     
-    cout << st.get_age() << "\n";
-    cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
-    cout << st.get_standard() << "\n";
-    cout << "\n";
-    cout << st.to_string();
+//     cout << st.get_age() << "\n";
+//     cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
+//     cout << st.get_standard() << "\n";
+//     cout << "\n";
+//     cout << st.to_string();
     
-    return 0;
-}
+//     return 0;
+// }
+
+
+
+
+//  
+// #include <cmath>
+// #include <cstdio>
+// #include <vector>
+// #include <iostream>
+// #include <algorithm>
+// #include <cassert>
+// using namespace std;
+// class Student{
+//     private:
+//         int a,b,c,d,e;
+//     public:
+//         void input(){
+//             cin>>a>>b>>c>>d>>e;
+//         }
+//         int calculateTotalScore(){
+//             int sum=a+b+c+d+e;
+//             return sum;
+//         }
+// };
+// // Write your Student class here
+
+// int main() {
+//     int n; // number of students
+//     cin >> n;
+//     Student *s = new Student[n]; // an array of n students
+    
+//     for(int i = 0; i < n; i++){
+//         s[i].input();
+//     }
+
+//     // calculate kristen's score
+//     int kristen_score = s[0].calculateTotalScore();
+
+//     // determine how many students scored higher than kristen
+//     int count = 0; 
+//     for(int i = 1; i < n; i++){
+//         int total = s[i].calculateTotalScore();
+//         if(total > kristen_score){
+//             count++;
+//         }
+//     }
+
+//     // print result
+//     cout << count;
+    
+//     return 0;
+// }
+
+
+
+
+//Classes prac.1
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// class Student{
+//     public:
+//         int a=10,b=20,c=30,d=40;
+//         string Fname, lname;
+        
+// };
+// int main(){
+//     Student st;
+//     cout<<"Hii, please enter your details:"<<endl;
+//     cout<<"Fname:"; cin>>st.Fname;
+//     cout<<"Lname:"; cin>>st.lname;
+//     cout<<st.a<<endl<<st.b<<endl<<st.c<<endl<<st.d;
+// }
