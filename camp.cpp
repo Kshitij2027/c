@@ -20,89 +20,6 @@
 // }
 
 
-// print n number of array in reverse
-// #include <cmath>
-// #include <cstdio>
-// #include <vector>
-// #include <iostream>
-// #include <algorithm>
-// using namespace std;
-// int main()
-// {
-//     int n;
-//     scanf("%d", &n);
-//     int arr[n];
-//     for(int i=1; i<=n; i++)
-//     {
-//         scanf("%d", &arr[i]);
-//     }
-//     for (int i = n; i>=1 ; i--)
-//     {
-//         printf("%d ", arr[i]);
-//     }
-    
-//     return 0;
-// }
-
-
-// 
-// #include <cmath>
-// #include <cstdio>
-// #include <vector>
-// #include <iostream>
-// #include <algorithm>
-// using namespace std;
-
-
-// int main() {
-//     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
-//     int height = 0, q = 0, lenght=0, value, m = 0, n= 0;
-//     cin>>height>>q;  
-//     vector<vector<int>> vect(height);
-    
-//     for(int i = 0; i<vect.size(); i++){
-//         cin>>lenght; 
-//         vector<int>vect_0(lenght); 
-//         vect[i] =  vect_0; 
-//         for(int j = 0; j<vect_0.size(); j++){
-//             cin>>value;
-//             vect_0[j] = value;
-//         }
-//         vect[i] =  vect_0;
-//     }
-
-//     for(int i = 0; i<q; i++){
-//         cin>>m>>n; 
-//         vector<int>vector_1 = vect[m]; 
-//         cout<<vector_1[n]<<"\n"; 
-//     } 
-//     return 0;
-// }
-
-
-
-
-
-
-
-// #include<bits/stdc++.h>
-// using namespace std;
-// struct workshop
-// {
-//     char f_name[100];
-//     char l_name[100];
-//     int sal;
-// };
-// int main(){
-// workshop wk;
-//     cin>>wk.f_name;
-//     cin>>wk.l_name;
-//     cin>>wk.sal;
-//     cout<<wk.f_name<<" "<<wk.l_name<<" "<<wk.sal;
-//     return 0;
-// }
-
-
 // Structures in c++
 
 // #include <cmath>
@@ -206,59 +123,8 @@
 
 
 
-//  
-// #include <cmath>
-// #include <cstdio>
-// #include <vector>
-// #include <iostream>
-// #include <algorithm>
-// #include <cassert>
-// using namespace std;
-// class Student{
-//     private:
-//         int a,b,c,d,e;
-//     public:
-//         void input(){
-//             cin>>a>>b>>c>>d>>e;
-//         }
-//         int calculateTotalScore(){
-//             int sum=a+b+c+d+e;
-//             return sum;
-//         }
-// };
-// // Write your Student class here
-
-// int main() {
-//     int n; // number of students
-//     cin >> n;
-//     Student *s = new Student[n]; // an array of n students
-    
-//     for(int i = 0; i < n; i++){
-//         s[i].input();
-//     }
-
-//     // calculate kristen's score
-//     int kristen_score = s[0].calculateTotalScore();
-
-//     // determine how many students scored higher than kristen
-//     int count = 0; 
-//     for(int i = 1; i < n; i++){
-//         int total = s[i].calculateTotalScore();
-//         if(total > kristen_score){
-//             count++;
-//         }
-//     }
-
-//     // print result
-//     cout << count;
-    
-//     return 0;
-// }
-
-
-
-
-//Classes prac.1
+ 
+ //Classes prac.1
 
 // #include<bits/stdc++.h>
 // using namespace std;
@@ -274,4 +140,67 @@
 //     cout<<"Fname:"; cin>>st.Fname;
 //     cout<<"Lname:"; cin>>st.lname;
 //     cout<<st.a<<endl<<st.b<<endl<<st.c<<endl<<st.d;
+// }
+
+
+
+
+// code with cisco
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+	// int n=0,index=0;
+	// string a[n];
+	// cout<<"Enter the number of elements:"<<endl;
+	// cin>>n;
+	// cout<<"Enter the series:"<<endl;
+	// for(int i=0;i<=n;i++){
+	// 	cin>>a[i];
+	// }
+	// for(int i=0;i<=(sizeof(a)/sizeof(a[0]));i++){
+	// 	for(int j=0;j<i;j++){
+	// 		if(a[i]==a[j]){
+	// 			break;
+	// 		}
+	// 		if(i==j){
+	// 			a[index++]=a[i];
+	// 		}
+	// 	}
+	// }
+	// cout<<index;
+
+	// int result,r,n,temp;
+	// string a;
+	// cout<<"Enter the number:"<<endl;
+	// cin>>n;
+	// cout<<"Enter the series of "<<n<<" elements:"<<endl;
+	// for(int i=0; i<=n;i++)
+	// {
+		// cin>>a;
+	// }
+	// r = a % 10;
+	// r = a % 10;
+    // a = a / 10;
+    // temp = r;
+    // r = a % 10;
+    // a = a / 10;
+    // for(int i=0;i<=n;i++){
+	// if (temp = r)
+    // {
+    //     temp=result;/* code */
+    // }
+	// }
+	// cout<<result;
+	// int count, n, str;
+	// cin>>str;
+	// string a[str];
+	// for(int i=0; i<=str; i++)
+	// {
+	// 	cin>>a[i];
+	// }
+	// n = a % 10;
+	// a = a / 10;
+// 	return 0;
 // }
